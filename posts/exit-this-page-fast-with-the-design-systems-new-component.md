@@ -6,6 +6,15 @@ tags:
   - trauma informed design
 ---
 
+<div class="trigger-warning">
+  <div>
+    <img src= "/static/img/warning-circle.svg" class="icon" alt="decorative image of 2 4 arrows pointing outwards from the centre">
+  </div>
+  <div>
+  <p class="large">Trigger warning: this article talks about trauma and domestic abuse</p>
+  </div>
+</div>
+
 The GOV.UK Design System team have released [Exit this page](https://design-system.service.gov.uk/components/exit-this-page/), a component which helps users quickly leave a page or site. It was originally suggested by Rob King at the Ministry of Justice (MoJ) following a collaboration between MoJ, the Department for Work and Pensions and the Scottish Government (GOV.SCOT).
 
 GDS's mission is to design and protect the user experience of government. This work supports that by helping vulnerable users.
@@ -101,3 +110,25 @@ We have plans for future improvements, using more research and cross-departmenta
 
 Making this component available is not the end of its journey. The team is keen to learn from others who use the component in the coming months so we can improve it.
 
+
+<style>
+  .trigger-warning {
+      padding: 20px;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      border: solid 2px #3775D2;
+      width: 100%;
+      display: flex;
+  }
+
+  .large {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .icon {
+  height: 100%;
+  width: 100%;
+  padding-right: 30px;
+}
+</style>
