@@ -23,9 +23,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0.75rem 0;
+  margin: 1.125rem 0;
   font-weight: 400;
-  font-size: large;
 }
 h1 {
   font-size: 2.027rem;
@@ -83,6 +82,9 @@ small {
     font-size: 0.833rem;
   }
 }
+p {
+  font-size: 1.125rem;
+}
 a {
   color: #d2375e;
   text-decoration: none;
@@ -102,7 +104,7 @@ hr {
   padding: 1rem;
   padding-bottom: 2.5rem;
   max-width: 1024px;
-  width: calc(100% - 2rem);
+  width: calc(100% - 1rem);
 }
 .container-sm {
   max-width: 640px;
