@@ -25,6 +25,7 @@ h6,
 p {
   margin: 0.75rem 0;
   font-weight: 400;
+  font-size: large;
 }
 h1 {
   font-size: 2.027rem;
@@ -101,7 +102,7 @@ hr {
   padding: 1rem;
   padding-bottom: 2.5rem;
   max-width: 1024px;
-  width: calc(100% - 1rem);
+  width: calc(100% - 2rem);
 }
 .container-sm {
   max-width: 640px;
