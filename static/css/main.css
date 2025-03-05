@@ -101,7 +101,7 @@ hr {
   padding: 1rem;
   padding-bottom: 2.5rem;
   max-width: 1024px;
-  width: calc(100% - 2rem);
+  width: calc(100% - 1rem);
 }
 .container-sm {
   max-width: 640px;
